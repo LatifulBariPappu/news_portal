@@ -18,9 +18,9 @@ const Navbar = ({ setCategory }) => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
+            <li className="nav-item custom-hover">
               <div
-                className="nav-link"
+                className="nav-link hover-effect"
                 onClick={() => setCategory("technology")}
               >
                 Technology
