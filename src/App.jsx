@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import NewsBoard from "./Components/NewsBoard";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [category, setCategory] = useState("general");
@@ -8,6 +9,7 @@ const App = () => {
     <div>
       <Navbar setCategory={setCategory} />
       <NewsBoard category={category} />
+      <Footer />
     </div>
   );
 };
