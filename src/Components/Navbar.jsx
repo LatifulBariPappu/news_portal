@@ -2,7 +2,7 @@ const Navbar = ({ setCategory }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#!">
           <span className="badge bg-light text-dark fs-4">NewsPortal</span>
         </a>
         <button
